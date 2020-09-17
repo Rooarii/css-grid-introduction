@@ -1,8 +1,8 @@
 .bloc-container {
   
     display: grid;
-    grid-template-columns: 100px 200px;
-    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
     justify-content: space-around;
     grid-gap: 10px;
     
@@ -12,10 +12,4 @@
     background-color: rgb(63, 153, 205);
     border: 2px solid rgb(46, 120, 163);
   }
-  
-  .bloc2 {
-    grid-template-rows: 1fr 1fr;
-    padding: 0.5em;
-    background-color: rgb(63, 153, 205);
-    border: 2px solid rgb(46, 120, 163);
-  }
+ 
